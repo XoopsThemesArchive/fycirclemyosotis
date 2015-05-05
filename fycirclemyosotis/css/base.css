@@ -1,0 +1,656 @@
+@charset "EUC-JP";
+
+/*-------------------------------------------------------*/
+/* Name: FY CIRCLE SERIES BASE                           */
+/* Build: 06/01/15                                       */
+/* Author: Theme4u.Net (Broom)                           */
+/*-------------------------------------------------------*/
+
+body{ 
+	font-size: 80%;
+	font-family: Verdana, Tahoma;
+	line-height: 1.6em;
+	text-align: center;
+	margin: 0;
+	padding: 5px;
+	}
+
+table,tr,td,input,textarea{
+	font-size: 100%;
+	}
+
+th{
+	font-size: 120%;
+	padding: 3px;
+	}
+
+th a:link, th a:active, th a:visited{
+	text-decoration: none;
+	}
+
+hr{
+	}
+
+img{
+	border: 0px;
+	}
+
+p{
+	}
+
+h1,h2,h3,h4,h5{
+	padding: 0;
+	margin: 0;
+	}
+
+
+/* Link - リンク
+-------------------------------------------------------- */
+
+a:link, a:visited, a:active{
+	}
+
+a:hover{
+	}
+
+
+/* Form - フォーム
+-------------------------------------------------------- */
+
+form {
+	margin:0;
+	padding:0
+	}
+
+input,select,textarea{
+	}
+
+input:focus,select:focus,textarea:focus{
+	}
+
+
+/* List - リスト
+-------------------------------------------------------- */
+
+ul	{
+	margin: 0 0 0 20px;
+	padding: 0px;
+	list-style: disc outside;
+	}
+
+ol{
+	margin: 0 0 0 23px;
+	padding: 0px;
+	list-style: decimal outside;
+	}
+
+li	{
+	}
+
+
+/* BB Code - 引用、コード
+-------------------------------------------------------- */
+
+.xoopsQuote {
+	margin: 4px;
+	padding: 0 3px;
+	}
+
+.xoopsQuote blockquote{
+	letter-spacing: 0.1em;
+	margin: 0;
+	padding: 0.5em;
+	}
+
+.xoopsCode {
+	font-family: "Courier New", Courier, monospace;
+	overflow: auto;
+	margin: 4px;
+	padding: 0.5em;
+	}
+
+
+/* Layout - レイアウト
+-------------------------------------------------------- */
+
+
+#wrap{ /* Wrap - サイト全体の幅 */
+	width: 100%; /* ピクセル指定またはパーセント指定 */
+	min-width: 600px;
+	margin: 0 auto;
+	text-align: left;
+	}
+
+.wrap_tl{ /* Top Left */
+	background: url(../images/wrap_tl.png) no-repeat;
+	width: 11px;
+	height: 11px;
+	}
+
+.wrap_tc{ /* Top Center */
+	background: url(../images/wrap_tc.png) repeat-x;
+	width: 11px;
+	height: 11px;
+	}
+
+.wrap_tr{ /* Top Right */
+	background: url(../images/wrap_tr.png) no-repeat;
+	width: 11px;
+	height: 11px;
+	}
+
+.wrap_ml{ /* Middle Left */
+	background: url(../images/wrap_ml.png) repeat-y;
+	width: 11px;
+	height: 1px;
+	}
+
+.wrap_mb{ /* Middle Background */
+	}
+
+.wrap_mr{ /* Middle Right */
+	background: url(../images/wrap_mr.png) repeat-y;
+	width: 11px;
+	height: 1px;
+	}
+
+.wrap_bl{ /* Bottom Left */
+	background: url(../images/wrap_bl.png) no-repeat;
+	width: 11px;
+	height: 11px;
+	}
+
+.wrap_bc{ /* Bottom Center */
+	background: url(../images/wrap_bc.png) repeat-x;
+	width: 11px;
+	height: 11px;
+	}
+
+.wrap_br{ /* Bottom Right */
+	background: url(../images/wrap_br.png) no-repeat;
+	width: 11px;
+	height: 11px;
+	}
+
+
+/* Header Layout - ヘッダー */
+
+.header_tl{ /* Top Left */
+	background: url(../images/header_tl.png) no-repeat;
+	width: 7px;
+	height: 7px;
+	}
+
+.header_tc{ /* Top Center */
+	background: url(../images/header_tc.png) repeat-x;
+	width: 7px;
+	height: 7px;
+	}
+
+.header_tr{ /* Top Right */
+	background: url(../images/header_tr.png) no-repeat;
+	width: 7px;
+	height: 7px;
+	}
+
+.header_ml{ /* Middle Left */
+	background: url(../images/header_ml.png) repeat-y;
+	width: 7px;
+	height: 1px;
+	}
+
+.header_mb{ /* Middle Background */
+	}
+
+.header_mr{ /* Middle Right */
+	background: url(../images/header_mr.png) repeat-y;
+	width: 7px;
+	height: 1px;
+	}
+
+.header_bl{ /* Bottom Left */
+	background: url(../images/header_bl.png) no-repeat;
+	width: 7px;
+	height: 7px;
+	}
+
+.header_bc{ /* Bottom Center */
+	background: url(../images/header_bc.png) repeat-x;
+	width: 7px;
+	height: 7px;
+	}
+
+.header_br{ /* Bottom Right */
+	background: url(../images/header_br.png) no-repeat;
+	width: 7px;
+	height: 7px;
+	}
+
+/* Content Layout - コンテンツ */
+
+.content_tl{ /* Top Left */
+	background: url(../images/content_tl.png) no-repeat;
+	width: 7px;
+	height: 7px;
+	}
+
+.content_tc{ /* Top Center */
+	background: url(../images/content_tc.png) repeat-x;
+	width: 7px;
+	height: 7px;
+	}
+
+.content_tr{ /* Top Right */
+	background: url(../images/content_tr.png) no-repeat;
+	width: 7px;
+	height: 7px;
+	}
+
+.content_ml{ /* Middle Left */
+	background: url(../images/content_ml.png) repeat-y;
+	width: 7px;
+	height: 7px;
+	}
+
+.content_mb{ /* Middle Background */
+	}
+
+.content_mr{ /* Middle Right */
+	background: url(../images/content_mr.png) repeat-y;
+	width: 7px;
+	height: 7px;
+	}
+
+.content_bl{ /* Bottom Left */
+	background: url(../images/content_bl.png) no-repeat;
+	width: 7px;
+	height: 7px;
+	}
+
+.content_bc{ /* Bottom Center */
+	background: url(../images/content_bc.png) repeat-x;
+	width: 7px;
+	height: 7px;
+	}
+
+.content_br{ /* Bottom Right */
+	background: url(../images/content_br.png) no-repeat;
+	width: 7px;
+	height: 7px;
+	}
+
+
+/* Left Column - 左カラム */
+
+#leftcolumn{
+	padding: 0 3px 0 0;
+	vertical-align: top;
+	width: 180px;
+	}
+
+#leftcolumn .blockTitle{
+	background: url(../images/blocktitle_c.png) repeat-x;
+	font-weight: bold;
+	height: 23px;
+	line-height: 23px;
+	}
+
+#leftcolumn .blockTitleLeft{
+	float: left;
+	background: url(../images/blocktitle_l.png) no-repeat;
+	width: 19px;
+	height: 23px;
+	}
+
+#leftcolumn .blockTitleRight{
+	float: right;
+	background: url(../images/blocktitle_r.png) no-repeat;
+	width: 3px;
+	height: 23px;
+	}
+
+#leftcolumn .blockContent{
+	padding: 0.3em 0;
+	}
+
+#leftcolumn table{
+	width: 100%;
+	}
+
+
+/* Center Column - 中央カラム */
+
+#centercolumn{
+	vertical-align: top;
+	}
+
+#centercolumn .blockTitle{
+	background: url(../images/blocktitle_c.png) repeat-x;
+	font-weight: bold;
+	height: 23px;
+	line-height: 23px;
+	}
+
+#centercolumn .blockTitleLeft{
+	float: left;
+	background: url(../images/blocktitle_l.png) no-repeat;
+	width: 19px;
+	height: 23px;
+	}
+
+#centercolumn .blockTitleRight{
+	float: right;
+	background: url(../images/blocktitle_r.png) no-repeat;
+	width: 3px;
+	height: 23px;
+	}
+
+#centercolumn .blockContent{
+	padding: 8px 3px;
+	}
+
+#centerleftcolumn{
+	vertical-align: top;
+	width: 50%;
+	}
+
+#centerrightcolumn{
+	vertical-align: top;
+	width: 50%;
+	}
+
+
+/* Right Column - 右カラム */
+
+#rightcolumn{
+	padding: 0 0 0 3px;
+	vertical-align: top;
+	width: 180px;
+	}
+
+#rightcolumn .blockTitle{
+	background: url(../images/blocktitle_c.png) repeat-x;
+	font-weight: bold;
+	height: 23px;
+	line-height: 23px;
+	}
+
+#rightcolumn .blockTitleLeft{
+	float: left;
+	background: url(../images/blocktitle_l.png) no-repeat;
+	width: 19px;
+	height: 23px;
+	}
+
+#rightcolumn .blockTitleRight{
+	float: right;
+	background: url(../images/blocktitle_r.png) no-repeat;
+	width: 3px;
+	height: 23px;
+	}
+
+#rightcolumn .blockContent{
+	padding: 0.3em 0;
+	}
+
+
+
+/* Footer - フッター */
+
+	#footer{
+	font-size: 90%;
+	text-align: center;
+	}
+
+	#footer a:link, #footer a:active, #footer a:visited{
+	text-decoration: none;
+	}
+
+	#footer a:hover{
+	text-decoration: none;
+	}
+
+
+/* Mainmenu - メインメニュー
+-------------------------------------------------------- */
+
+td#mainmenu {
+	line-height: 1.0em;
+	}
+
+td#mainmenu a {
+	background: url(../images/menu.png) no-repeat;
+	text-decoration: none;
+	}
+
+td#mainmenu a:hover {
+	text-decoration: none;
+	}
+
+td#mainmenu a.menuTop {
+	padding-left: 20px;
+	}
+
+td#mainmenu a.menuTop:hover {
+	background-position: 0 -30px;
+	}
+
+td#mainmenu a.menuMain {
+	padding-left: 20px;
+	}
+
+td#mainmenu a.menuMain:hover{
+	background-position: 0 -30px;
+	}
+
+td#mainmenu a.menuSub {
+	background: none;
+	line-height: 0.8em;
+	margin-left: 10px;
+	}
+
+td#mainmenu a.menuSub:hover {
+	text-decoration: underline;
+	}
+
+
+/* Usermenu - ユーザーメニュー
+-------------------------------------------------------- */
+
+td#usermenu {
+	line-height: 1.0em;
+	}
+
+td#usermenu a {
+	background: url(../images/menu.png) no-repeat;
+	text-decoration: none;
+	padding-left: 20px;
+	}
+
+td#usermenu a:hover {
+	background-position: 0 -30px;
+	text-decoration: none;
+	}
+
+td#usermenu a.menuTop {
+	padding-left: 20px;
+	}
+
+td#usermenu a.menuTop:hover {
+	background-position: 0 -30px;
+	text-decoration: none;
+	}
+
+td#usermenu a.highlight {
+	background: url(../images/menu_newpm.png) no-repeat;
+	}
+
+td#usermenu a.highlight:hover {
+	background-position: 0 -30px;
+	text-decoration: none;
+	}
+
+
+/* News - ニュース
+-------------------------------------------------------- */
+
+.item {
+	}
+
+.itemHead {
+	font-size: 120%;
+	font-weight: bold;
+	padding: 3px;
+	}
+
+.itemInfo {
+	text-align: right;
+	padding: 2px 3px;
+	}
+
+.itemTitle a:link, .itemTitle a:active, .itemTitle a:visited {
+	text-decoration: none;
+	}
+
+.itemPoster {}
+
+.itemPostDate {}
+
+.itemStats {}
+
+.itemBody {
+	padding: 2px 3px;
+	}
+
+.itemText {
+	letter-spacing: 0.1em;
+	}
+
+.itemFoot {
+	padding: 2px 3px;
+	}
+
+.itemAdminLink {}
+
+.itemPermaLink {}
+
+
+/* Forum,Table - フォーラム、テーブル
+-------------------------------------------------------- */
+
+.outer{
+	width: 100%;
+	border-collapse: collapse;
+	}
+
+.head, tr.head td{
+	font-weight: bold;
+	padding: 2px 3px;
+	}
+
+.head a:link, .head a:active, .head a:visited{
+	text-decoration: none;
+	}
+
+.head a:hover{
+	}
+
+.even, tr.even td{
+	padding: 2px 3px;
+	vertical-align: top;
+	}
+
+.odd, tr.odd td{
+	padding: 2px 3px;
+	vertical-align: top;
+	}
+
+.foot, tr.foot td{
+	padding: 2px 3px;
+	}
+
+.foot a:link, .foot a:active, .foot a:visited{
+	}
+
+
+/* Forum Post,etc.. - フォーラム投稿
+-------------------------------------------------------- */
+
+.comTitle {
+	font-size: 110%;
+	font-weight: bold;
+	}
+
+.comPoster {
+
+	}
+
+.comText {
+	letter-spacing: 0.1em;
+	}
+
+.comUserStat {
+	font-size: 95%;
+	margin: 2px;
+	padding: 1px 3px;
+	}
+
+.comUserStatCaption {
+	font-weight: bold;
+	}
+
+.comUserStatus {
+
+	}
+
+.comUserRank {
+	margin: 2px;
+	padding: 1px 2px;
+	}
+
+.comUserRankText {
+	font-weight: bold;
+	}
+
+.comUserRankImg {
+
+	}
+
+.comUserName {
+
+	}
+
+.comUserImg {
+	margin: 2px;
+	padding: 2px 3px;
+	}
+
+.comDate {
+
+	}
+
+.comDateCaption {
+
+	}
+
+
+/* Error Message - エラーメッセージ
+-------------------------------------------------------- */
+
+div.errorMsg {
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	}
+
+div.confirmMsg {
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	}
+
+div.resultMsg {
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+}

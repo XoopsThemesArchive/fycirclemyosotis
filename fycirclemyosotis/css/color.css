@@ -1,0 +1,536 @@
+@charset "EUC-JP";
+
+/*-------------------------------------------------------*/
+/* Name: FY CIRCLE SERIES (MYOSOTIS)                     */
+/* Build: 06/01/15                                       */
+/* Author: Theme4u.Net (Broom)                           */
+/*-------------------------------------------------------*/
+
+
+/* General - サイト全体
+-------------------------------------------------------- */
+
+body{ 
+	background-color: #F5F5F5;
+	color: #4C5656;
+	}
+
+table,tr,td,input,textarea{
+	}
+
+th{
+	background-color: #DAF5F5;
+	border-top: 1px solid #289797;
+	border-bottom: 1px solid #289797;
+	}
+
+th a:link, th a:active, th a:visited{
+	}
+
+hr{
+	}
+
+img{
+	}
+
+p{
+	}
+
+h1,h2,h3,h4,h5{
+	}
+
+
+/* Link - リンク
+-------------------------------------------------------- */
+
+a:link, a:visited, a:active{
+	color: #4C5656;
+	}
+
+a:hover{
+	color: #7A8C8C;
+	}
+
+
+/* Form - フォーム
+-------------------------------------------------------- */
+
+form {
+	}
+
+input,select,textarea{
+	border: 1px solid #289797;
+	background-color: #EDFFFF;
+	}
+
+input:focus,select:focus,textarea:focus{
+	background-color: #F8FFFF;
+	}
+
+
+/* List - リスト
+-------------------------------------------------------- */
+
+ul	{
+	}
+
+ol{
+	}
+
+li	{
+	}
+
+
+/* BB Code - 引用、コード
+-------------------------------------------------------- */
+
+.xoopsQuote {
+	border-left: 4px solid #289797;
+	}
+
+.xoopsQuote blockquote{
+	}
+
+.xoopsCode {
+	border-left: 4px solid #289797;
+	}
+
+
+/* Layout - レイアウト
+-------------------------------------------------------- */
+
+
+#wrap{ /* Wrap - サイト全体の幅 */
+	}
+
+.wrap_tl{ /* Top Left */
+	background-color: #DAF5F5;
+	}
+
+.wrap_tc{ /* Top Center */
+	background-color: #DAF5F5;
+	}
+
+.wrap_tr{ /* Top Right */
+	background-color: #DAF5F5;
+	}
+
+.wrap_ml{ /* Middle Left */
+	background-color: #DAF5F5;
+	}
+
+.wrap_mb{ /* Middle background-color */
+	background-color: #DAF5F5;
+	}
+
+.wrap_mr{ /* Middle Right */
+	background-color: #DAF5F5;
+	}
+
+.wrap_bl{ /* Bottom Left */
+	background-color: #DAF5F5;
+	}
+
+.wrap_bc{ /* Bottom Center */
+	background-color: #DAF5F5;
+	}
+
+.wrap_br{ /* Bottom Right */
+	background-color: #DAF5F5;
+	}
+
+
+/* Header Layout - ヘッダー */
+
+.header_tl{ /* Top Left */
+	background-color: #DAF5F5;
+	}
+
+.header_tc{ /* Top Center */
+	background-color: #DAF5F5;
+	}
+
+.header_tr{ /* Top Right */
+	background-color: #DAF5F5;
+	}
+
+.header_ml{ /* Middle Left */
+	background-color: #DAF5F5;
+	}
+
+.header_mb{ /* Middle background-color */
+	background-color: #F7FDFD;
+	}
+
+.header_mr{ /* Middle Right */
+	background-color: #DAF5F5;
+	}
+
+.header_bl{ /* Bottom Left */
+	background-color: #DAF5F5;
+	}
+
+.header_bc{ /* Bottom Center */
+	background-color: #DAF5F5;
+	}
+
+.header_br{ /* Bottom Right */
+	background-color: #DAF5F5;
+	}
+
+/* Content Layout - コンテンツ */
+
+.content_tl{ /* Top Left */
+	background-color: #DAF5F5;
+	}
+
+.content_tc{ /* Top Center */
+	background-color: #DAF5F5;
+	}
+
+.content_tr{ /* Top Right */
+	background-color: #DAF5F5;
+	}
+
+.content_ml{ /* Middle Left */
+	background-color: #DAF5F5;
+	}
+
+.content_mb{ /* Middle background-color */
+	background-color: #F7FDFD;
+	}
+
+.content_mr{ /* Middle Right */
+	background-color: #DAF5F5;
+	}
+
+.content_bl{ /* Bottom Left */
+	background-color: #DAF5F5;
+	}
+
+.content_bc{ /* Bottom Center */
+	background-color: #DAF5F5;
+	}
+
+.content_br{ /* Bottom Right */
+	background-color: #DAF5F5;
+	}
+
+
+/* Left Column - 左カラム */
+
+#leftcolumn{
+	}
+
+#leftcolumn .blockTitle{
+	background-color: #E8F9F9;
+	color: #31B7B7;
+	}
+
+#leftcolumn .blockTitleLeft{
+	background-color: #E8F9F9;
+	}
+
+#leftcolumn .blockTitleRight{
+	background-color: #E8F9F9;
+	}
+
+#leftcolumn .blockContent{
+	background-color: #F7FDFD;
+	}
+
+#leftcolumn table{
+	}
+
+
+/* Center Column - 中央カラム */
+
+#centercolumn{
+	}
+
+#centercolumn .blockTitle{
+	background-color: #E8F9F9;
+	color: #31B7B7;
+	}
+
+#centercolumn .blockTitleLeft{
+	background-color: #E8F9F9;
+	}
+
+#centercolumn .blockTitleRight{
+	background-color: #E8F9F9;
+	}
+
+#centercolumn .blockContent{
+	background-color: #F7FDFD;
+	}
+
+#centerleftcolumn{
+	}
+
+#centerrightcolumn{
+	}
+
+
+/* Right Column - 右カラム */
+
+#rightcolumn{
+	}
+
+#rightcolumn .blockTitle{
+	background-color: #E8F9F9;
+	color: #31B7B7;
+	}
+
+#rightcolumn .blockTitleLeft{
+	background-color: #E8F9F9;
+	}
+
+#rightcolumn .blockTitleRight{
+	background-color: #E8F9F9;
+	}
+
+#rightcolumn .blockContent{
+	background-color: #F7FDFD;
+	}
+
+
+
+/* Footer - フッター */
+
+	#footer{
+	color: #888888;
+	}
+
+	#footer a:link, #footer a:active, #footer a:visited{
+	color: #888888;
+	}
+
+	#footer a:hover{
+	color: #000000;
+	}
+
+
+/* Mainmenu - メインメニュー
+-------------------------------------------------------- */
+
+td#mainmenu {
+	}
+
+td#mainmenu a {
+	}
+
+td#mainmenu a:hover {
+	}
+
+td#mainmenu a.menuTop {
+	}
+
+td#mainmenu a.menuTop:hover {
+	}
+
+td#mainmenu a.menuMain {
+	}
+
+td#mainmenu a.menuMain:hover{
+	}
+
+td#mainmenu a.menuSub {
+	}
+
+td#mainmenu a.menuSub:hover {
+	}
+
+
+/* Usermenu - ユーザーメニュー
+-------------------------------------------------------- */
+
+td#usermenu {
+	}
+
+td#usermenu a {
+	}
+
+td#usermenu a:hover {
+	}
+
+td#usermenu a.menuTop {
+	}
+
+td#usermenu a.menuTop:hover {
+	}
+
+td#usermenu a.highlight {
+	color: #1A1A1A;
+	}
+
+td#usermenu a.highlight:hover {
+	}
+
+
+/* News - ニュース
+-------------------------------------------------------- */
+
+.item {
+	}
+
+.itemHead {
+	background-color: #DAF5F5;
+	border-top: 1px solid #289797;
+	border-bottom: 1px solid #289797;
+	}
+
+.itemInfo {
+	background-color: #EAFCFC;
+	border-bottom: 1px solid #289797;
+	}
+
+.itemTitle a:link, .itemTitle a:active, .itemTitle a:visited {
+	}
+
+.itemPoster {}
+
+.itemPostDate {}
+
+.itemStats {}
+
+.itemBody {
+	border-bottom: 1px solid #289797;
+	}
+
+.itemText {
+	}
+
+.itemFoot {
+	background-color: #EAFCFC;
+	border-bottom: 1px solid #289797;
+	}
+
+.itemAdminLink {}
+
+.itemPermaLink {}
+
+
+/* Forum,Table - フォーラム、テーブル
+-------------------------------------------------------- */
+
+.outer{
+	}
+
+.head, tr.head td{
+	background-color: #EAFCFC;
+	border-top: 1px solid #289797;
+	border-bottom: 1px solid #289797;
+	}
+
+.head a:link, .head a:active, .head a:visited{
+	}
+
+.head a:hover{
+	}
+
+.even, tr.even td{
+	background-color: #EDFFFF;
+	border-top: 1px solid #289797;
+	border-bottom: 1px solid #289797;
+	}
+
+.odd, tr.odd td{
+	background-color: #EDFFFF;
+	border-top: 1px solid #289797;
+	border-bottom: 1px solid #289797;
+	}
+
+.foot, tr.foot td{
+	background-color: #EAFCFC;
+	border-top: 1px solid #289797;
+	border-bottom: 1px solid #289797;
+	}
+
+.foot a:link, .foot a:active, .foot a:visited{
+	}
+
+
+/* Forum Post,etc.. - フォーラム投稿
+-------------------------------------------------------- */
+
+.comTitle {
+	}
+
+.comPoster {
+
+	}
+
+.comText {
+	}
+
+.comUserStat {
+	background-color: #EDFFFF;
+	border: solid #289797;
+	border-width: 1px 1px 1px 3px;
+	}
+
+.comUserStatCaption {
+	}
+
+.comUserStatus {
+
+	}
+
+.comUserRank {
+	background-color: #EDFFFF;
+	border: solid #289797;
+	border-width: 1px 1px 1px 3px;
+	}
+
+.comUserRankText {
+	}
+
+.comUserRankImg {
+
+	}
+
+.comUserName {
+
+	}
+
+.comUserImg {
+	}
+
+.comDate {
+
+	}
+
+.comDateCaption {
+
+	}
+
+
+/* Error Message - エラーメッセージ
+-------------------------------------------------------- */
+
+div.errorMsg {
+	background-color: #FFCCCC;
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #AAAAAA;
+	border-bottom: 1px solid #AAAAAA;
+	}
+
+div.confirmMsg {
+	background-color: #DDFFDF;
+	color: #136C99;
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #AAAAAA;
+	border-bottom: 1px solid #AAAAAA;
+	}
+
+div.resultMsg {
+	background-color : #CCCCCC;
+	color: #333333;
+	border-top: 1px solid silver;
+	border-left: 1px solid silver;
+	border-right: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+}
